@@ -1,0 +1,7 @@
+FROM phpmyadmin:latest
+
+#Environtment
+ENV PMA_HOST 172.19.0.2
+ENV MYSQL_ROOT_PASSWORD password
+EXPOSE 80
+EXPOSE 8081
